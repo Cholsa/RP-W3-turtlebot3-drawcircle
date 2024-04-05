@@ -1,0 +1,8 @@
+prefix=/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/install
+
+Name: my_circle_package
+Description: Description of my_circle_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

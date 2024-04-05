@@ -1,0 +1,8 @@
+prefix=/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/devel
+
+Name: my_star_package
+Description: Description of my_star_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
