@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/install/setup.sh
