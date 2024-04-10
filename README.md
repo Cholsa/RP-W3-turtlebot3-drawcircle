@@ -13,6 +13,11 @@ export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
 
 ```
+go to the workspace and
+
+```
+source devel/setup.bash
+```
 
 ```
 export TURTLEBOT3_MODEL=burger
