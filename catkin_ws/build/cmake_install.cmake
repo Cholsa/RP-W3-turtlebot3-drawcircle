@@ -132,10 +132,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
-  include("/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/my_circle_package/cmake_install.cmake")
-  include("/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/my_star_package/cmake_install.cmake")
   include("/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
   include("/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
+  include("/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/botcontroller/cmake_install.cmake")
 
 endif()
 
