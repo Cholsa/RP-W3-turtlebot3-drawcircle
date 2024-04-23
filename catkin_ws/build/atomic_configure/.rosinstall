@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/devel/setup.sh
+    local-name: /home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/devel/setup.sh

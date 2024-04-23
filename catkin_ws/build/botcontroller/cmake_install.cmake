@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/src/botcontroller
+# Install script for directory: /home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/src/botcontroller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/botcontroller/catkin_generated/installspace/botcontroller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/build/botcontroller/catkin_generated/installspace/botcontroller.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/botcontroller/cmake" TYPE FILE FILES
-    "/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/botcontroller/catkin_generated/installspace/botcontrollerConfig.cmake"
-    "/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/build/botcontroller/catkin_generated/installspace/botcontrollerConfig-version.cmake"
+    "/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/build/botcontroller/catkin_generated/installspace/botcontrollerConfig.cmake"
+    "/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/build/botcontroller/catkin_generated/installspace/botcontrollerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/botcontroller" TYPE FILE FILES "/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/src/botcontroller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/botcontroller" TYPE FILE FILES "/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/src/botcontroller/package.xml")
 endif()
 

@@ -1,2 +1,2 @@
 botcontroller:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
--DCATKIN_DEVEL_PREFIX=/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/install -G Unix Makefiles

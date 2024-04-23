@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/devel/lib/turtlebot3_gazebo/turtlebot3_drive"
-  "/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/devel/lib/turtlebot3_gazebo/turtlebot3_drive.pdb"
+  "/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/devel/lib/turtlebot3_gazebo/turtlebot3_drive"
+  "/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/devel/lib/turtlebot3_gazebo/turtlebot3_drive.pdb"
   "CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o"
 )
 

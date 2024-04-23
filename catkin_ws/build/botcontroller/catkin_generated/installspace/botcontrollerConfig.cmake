@@ -67,14 +67,14 @@ set(botcontroller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(botcontroller_SOURCE_PREFIX /home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/src/botcontroller)
-  set(botcontroller_DEVEL_PREFIX /home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/devel)
+  set(botcontroller_SOURCE_PREFIX /home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/src/botcontroller)
+  set(botcontroller_DEVEL_PREFIX /home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/devel)
   set(botcontroller_INSTALL_PREFIX "")
   set(botcontroller_PREFIX ${botcontroller_DEVEL_PREFIX})
 else()
   set(botcontroller_SOURCE_PREFIX "")
   set(botcontroller_DEVEL_PREFIX "")
-  set(botcontroller_INSTALL_PREFIX /home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/install)
+  set(botcontroller_INSTALL_PREFIX /home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/install)
   set(botcontroller_PREFIX ${botcontroller_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/install/lib;/home/ubuntu20-04/assignments/RP-W3-turtlebot3-drawcircle/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/install/lib;/home/ubuntu20-04/assignments/rphw3-turtlebot3-drawcircle/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
